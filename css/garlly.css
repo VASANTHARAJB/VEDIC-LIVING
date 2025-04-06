@@ -1,0 +1,190 @@
+/* Gallery Section Styles */
+.gallery-section {
+    margin: var(--section-spacing) 0;
+  }
+  
+  .gallery-slider {
+    position: relative;
+    width: 100%;
+    height: 395px;
+    overflow: hidden;
+  }
+  
+  .gallery-track {
+    position: relative;
+    width: 4870px;
+    height: 390px;
+    margin-left: -78px;
+    display: flex;
+    gap: 25px;
+  }
+  
+  .gallery-item {
+    width: 280px;
+    height: 390px;
+    background-color: rgba(217, 217, 217, 0.2);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: var(--border-radius-lg);
+  }
+  
+  .gallery-item:nth-child(1) {
+    background-image: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-06/SNa4eTsGfE.png);
+  }
+  
+  .gallery-item:nth-child(2) {
+    background-image: url(https://static.codia.ai/custom_image/2025-04-06/045948/gallery-highlight-2.png);
+  }
+  
+  .gallery-item:nth-child(3) {
+    background-image: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-06/15s3tiYPGO.png);
+  }
+  
+  .gallery-item:nth-child(4) {
+    background-image: url(https://static.codia.ai/custom_image/2025-04-06/045948/gallery-highlight-4.png);
+  }
+  
+  .gallery-item:nth-child(5) {
+    background-image: url(https://static.codia.ai/custom_image/2025-04-06/045948/gallery-highlight-5.png);
+  }
+  
+  .gallery-item:nth-child(6) {
+    background-image: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-06/b7EZcwCxPL.png);
+  }
+  
+  .gallery-item:nth-child(7) {
+    background-image: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-06/MKHE1GtQhK.png);
+  }
+  
+  .gallery-item:nth-child(8) {
+    background-image: url(https://static.codia.ai/custom_image/2025-04-06/045948/gallery-highlight-8.png);
+  }
+  
+  .gallery-item:nth-child(9) {
+    background-image: url(https://static.codia.ai/custom_image/2025-04-06/045948/gallery-highlight-9.png);
+  }
+  
+  .gallery-item:nth-child(10) {
+    background-image: url(https://static.codia.ai/custom_image/2025-04-06/045948/gallery-highlight-10.png);
+  }
+  
+  .gallery-item:nth-child(11) {
+    background-image: url(https://static.codia.ai/custom_image/2025-04-06/045948/gallery-highlight-11.png);
+  }
+  
+  .gallery-item:nth-child(12) {
+    background-image: url(https://static.codia.ai/custom_image/2025-04-06/045948/gallery-highlight-12.png);
+  }
+  
+  .gallery-item:nth-child(13) {
+    background-image: url(https://static.codia.ai/custom_image/2025-04-06/045948/gallery-highlight-13.png);
+  }
+  
+  .gallery-item:nth-child(14) {
+    background-image: url(https://static.codia.ai/custom_image/2025-04-06/045948/gallery-highlight-14.png);
+  }
+  
+  .gallery-item:nth-child(15) {
+    background-image: url(https://static.codia.ai/custom_image/2025-04-06/045948/gallery-highlight-15.png);
+  }
+  
+  .gallery-item:nth-child(16) {
+    background-image: url(https://static.codia.ai/custom_image/2025-04-06/045948/gallery-highlight-16.png);
+  }
+  
+  /* Main slider styles - similar structure */
+  .slider-section {
+    margin: var(--section-spacing) 0;
+  }
+  
+  .slider-container {
+    position: relative;
+    width: 100%;
+    height: 395px;
+    overflow: hidden;
+  }
+  
+  .slider-track {
+    position: relative;
+    width: 4870px;
+    height: 390px;
+    margin-left: -78px;
+    display: flex;
+    gap: 25px;
+  }
+  
+  .slide-item {
+    width: 280px;
+    height: 390px;
+    background-color: rgba(217, 217, 217, 0.2);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: var(--border-radius-lg);
+  }
+  
+  .slide-item:nth-child(1) {
+    background-image: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-06/vBeG4Ub6v0.png);
+  }
+  
+  .slide-item:nth-child(2) {
+    background-image: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-06/wHA6Q6WfBE.png);
+  }
+  
+  .slide-item:nth-child(3) {
+    background-image: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-06/J3qZDVMUv7.png);
+  }
+  
+  .slide-item:nth-child(4) {
+    background-image: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-06/3b1kBbBM5T.png);
+  }
+  
+  .slide-item:nth-child(5) {
+    background-image: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-06/BbeWmswkpy.png);
+  }
+  
+  .slide-item:nth-child(6) {
+    background-image: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-06/TcnBOqi1so.png);
+  }
+  
+  .slide-item:nth-child(7) {
+    background-image: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-06/SWXsBf5j6f.png);
+  }
+  
+  .slide-item:nth-child(8) {
+    background-image: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-06/Q4ZNVUdMoO.png);
+  }
+  
+  .slide-item:nth-child(9) {
+    background-image: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-06/FJftziWtyp.png);
+  }
+  
+  .slide-item:nth-child(10) {
+    background-image: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-06/nooqFGS45P.png);
+  }
+  
+  .slide-item:nth-child(11) {
+    background-image: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-06/0QpEOGrS2K.png);
+  }
+  
+  .slide-item:nth-child(12) {
+    background-image: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-06/wYNR2N4rtN.png);
+  }
+  
+  .slide-item:nth-child(13) {
+    background-image: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-06/JBUxUGzWi6.png);
+  }
+  
+  .slide-item:nth-child(14) {
+    background-image: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-06/p3N8PExjNF.png);
+  }
+  
+  .slide-item:nth-child(15) {
+    background-image: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-06/Yz8hrZrVFL.png);
+  }
+  
+  .slide-item:nth-child(16) {
+    background-image: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-06/8v01hvURum.png);
+  }
+  

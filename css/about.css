@@ -1,0 +1,49 @@
+/* About Section Styles */
+.about-section {
+    margin: var(--section-spacing) 0;
+  }
+  
+  .about-content {
+    display: flex;
+    gap: 30px;
+    margin: 0 60px;
+  }
+  
+  .about-image {
+    flex: 0 0 599px;
+    height: 585px;
+  }
+  
+  .foundation-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .about-text {
+    flex: 1;
+  }
+  
+  .foundation-intro {
+    font-family: "Times New Roman", var(--default-font-family);
+    font-size: 23px;
+    line-height: 40px;
+    text-align: justify;
+    margin-bottom: 30px;
+  }
+  
+  .foundation-description {
+    font-family: "Times New Roman", var(--default-font-family);
+    font-size: 23px;
+    line-height: 40px;
+    text-align: justify;
+  }
+  
+  .mission-statement {
+    font-family: "Times New Roman", var(--default-font-family);
+    font-size: 23px;
+    line-height: 40px;
+    text-align: justify;
+    margin: 20px 30px;
+  }
+  

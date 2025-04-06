@@ -1,0 +1,205 @@
+/* Content Sections Styles */
+
+/* Classes Section */
+.classes-section {
+    margin: var(--section-spacing) 0;
+  }
+  
+  .class-content {
+    display: flex;
+    gap: 30px;
+    margin: 0 35px;
+  }
+  
+  .class-image {
+    flex: 0 0 369px;
+    height: 469px;
+  }
+  
+  .online-class-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .class-description {
+    flex: 1;
+    font-family: "Times New Roman", var(--default-font-family);
+    font-size: 24px;
+    line-height: 29px;
+    text-align: justify;
+  }
+  
+  /* Pooja Section */
+  .pooja-section {
+    margin: var(--section-spacing) 0;
+  }
+  
+  .pooja-content {
+    display: flex;
+    gap: 30px;
+    margin: 0 41px;
+  }
+  
+  .pooja-image {
+    flex: 0 0 369px;
+    height: 468px;
+  }
+  
+  .havan-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .pooja-description {
+    flex: 1;
+    font-family: "Times New Roman", var(--default-font-family);
+    font-size: 24px;
+    line-height: 28px;
+    text-align: justify;
+  }
+  
+  /* Astrology Section */
+  .astrology-section {
+    margin: var(--section-spacing) 0;
+  }
+  
+  .astrology-content {
+    display: flex;
+    gap: 30px;
+    margin: 0 35px;
+  }
+  
+  .astrology-image {
+    flex: 0 0 369px;
+    height: 468px;
+  }
+  
+  .consultation-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .astrology-description {
+    flex: 1;
+    font-family: "Times New Roman", var(--default-font-family);
+    font-size: 18px;
+    line-height: 55px;
+    text-align: justify;
+  }
+  
+  /* Spiritual Tours Section */
+  .spiritual-tours-section {
+    margin: var(--section-spacing) 0;
+  }
+  
+  .tours-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin: 0 91px;
+  }
+  
+  .tour-card {
+    width: 288px;
+    height: 272px;
+    background: var(--gray-bg);
+  }
+  
+  /* Veda Raksha Section */
+  .veda-raksha-section {
+    margin: var(--section-spacing) 0;
+  }
+  
+  .veda-content {
+    display: flex;
+    gap: 30px;
+    margin: 0 26px;
+  }
+  
+  .veda-image {
+    flex: 0 0 369px;
+    height: 468px;
+  }
+  
+  .veda-description {
+    flex: 1;
+    font-family: "Times New Roman", var(--default-font-family);
+    font-size: 18px;
+    line-height: 55px;
+    text-align: justify;
+  }
+  
+  /* Membership Section */
+  .membership-section {
+    margin: var(--section-spacing) 0;
+  }
+  
+  .membership-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin: 0 91px;
+  }
+  
+  .membership-card {
+    width: 288px;
+    height: 272px;
+    background: var(--gray-bg);
+  }
+  
+  /* Shathachandika Yajna Section */
+  .yajna-section {
+    margin: var(--section-spacing) 0;
+  }
+  
+  .yajna-content {
+    display: flex;
+    gap: 30px;
+    margin: 0 31px;
+  }
+  
+  .yajna-image {
+    flex: 0 0 369px;
+    height: 468px;
+  }
+  
+  .yajna-description {
+    flex: 1;
+    font-family: "Times New Roman", var(--default-font-family);
+    font-size: 18px;
+    line-height: 41px;
+    text-align: justify;
+  }
+  
+  /* E-Book Section */
+  .ebook-section {
+    margin: var(--section-spacing) 0;
+  }
+  
+  .ebook-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin: 0 91px;
+  }
+  
+  .ebook-card {
+    width: 288px;
+    height: 272px;
+    background: var(--gray-bg);
+  }
+  
+  /* Footer */
+  .site-footer {
+    padding: 30px 0;
+    text-align: center;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-family: "Inknut Antiqua", var(--default-font-family);
+    font-weight: 700;
+    margin-top: 60px;
+  }
+  
