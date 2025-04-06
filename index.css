@@ -1,0 +1,2787 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container {
+    overflow: hidden;
+  }
+  
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container {
+    position: relative;
+    width: 1440px;
+    height: 11012px;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  .component {
+    position: relative;
+    width: 1440px;
+    height: 395.273px;
+    margin: 367px 0 0 11px;
+    z-index: 137;
+    overflow: hidden;
+  }
+  .group {
+    position: relative;
+    width: 4870px;
+    height: 390px;
+    margin: 0 0 0 -78px;
+    z-index: 138;
+    border-radius: 20px;
+  }
+  .rectangle {
+    position: absolute;
+    width: 280px;
+    height: 390px;
+    top: 0;
+    left: 0;
+    background: rgba(217, 217, 217, 0.2)
+      url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-06/vBeG4Ub6v0.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 139;
+    border-radius: 20px;
+  }
+  .rectangle-1 {
+    position: absolute;
+    width: 280px;
+    height: 390px;
+    top: 0;
+    left: 305px;
+    background: rgba(217, 217, 217, 0.2)
+      url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-06/wHA6Q6WfBE.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 140;
+    border-radius: 20px;
+  }
+  .rectangle-2 {
+    position: absolute;
+    width: 280px;
+    height: 390px;
+    top: 0;
+    left: 610px;
+    background: rgba(217, 217, 217, 0.2)
+      url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-06/J3qZDVMUv7.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 141;
+    border-radius: 20px;
+  }
+  .rectangle-3 {
+    position: absolute;
+    width: 280px;
+    height: 390px;
+    top: 0;
+    left: 915px;
+    background: rgba(217, 217, 217, 0.2)
+      url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-06/3b1kBbBM5T.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 142;
+    border-radius: 20px;
+  }
+  .rectangle-4 {
+    position: absolute;
+    width: 280px;
+    height: 390px;
+    top: 0;
+    left: 1220px;
+    background: rgba(217, 217, 217, 0.2)
+      url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-06/BbeWmswkpy.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 143;
+    border-radius: 20px;
+  }
+  .rectangle-5 {
+    position: absolute;
+    width: 280px;
+    height: 390px;
+    top: 0;
+    left: 1525px;
+    background: rgba(217, 217, 217, 0.2)
+      url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-06/TcnBOqi1so.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 144;
+    border-radius: 20px;
+  }
+  .rectangle-6 {
+    position: absolute;
+    width: 280px;
+    height: 390px;
+    top: 0;
+    left: 1830px;
+    background: rgba(217, 217, 217, 0.2)
+      url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-06/SWXsBf5j6f.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 145;
+    border-radius: 20px;
+  }
+  .rectangle-7 {
+    position: absolute;
+    width: 280px;
+    height: 390px;
+    top: 0;
+    left: 2135px;
+    background: rgba(217, 217, 217, 0.2)
+      url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-06/Q4ZNVUdMoO.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 146;
+    border-radius: 20px;
+  }
+  .rectangle-8 {
+    position: absolute;
+    width: 280px;
+    height: 390px;
+    top: 0;
+    left: 2455px;
+    background: rgba(217, 217, 217, 0.2)
+      url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-06/FJftziWtyp.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 147;
+    border-radius: 20px;
+  }
+  .rectangle-9 {
+    position: absolute;
+    width: 280px;
+    height: 390px;
+    top: 0;
+    left: 2760px;
+    background: rgba(217, 217, 217, 0.2)
+      url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-06/nooqFGS45P.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 148;
+    border-radius: 20px;
+  }
+  .rectangle-a {
+    position: absolute;
+    width: 280px;
+    height: 390px;
+    top: 0;
+    left: 3065px;
+    background: rgba(217, 217, 217, 0.2)
+      url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-06/0QpEOGrS2K.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 149;
+    border-radius: 20px;
+  }
+  .rectangle-b {
+    position: absolute;
+    width: 280px;
+    height: 390px;
+    top: 0;
+    left: 3370px;
+    background: rgba(217, 217, 217, 0.2)
+      url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-06/wYNR2N4rtN.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 150;
+    border-radius: 20px;
+  }
+  .rectangle-c {
+    position: absolute;
+    width: 280px;
+    height: 390px;
+    top: 0;
+    left: 3675px;
+    background: rgba(217, 217, 217, 0.2)
+      url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-06/JBUxUGzWi6.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 151;
+    border-radius: 20px;
+  }
+  .rectangle-d {
+    position: absolute;
+    width: 280px;
+    height: 390px;
+    top: 0;
+    left: 3980px;
+    background: rgba(217, 217, 217, 0.2)
+      url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-06/p3N8PExjNF.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 152;
+    border-radius: 20px;
+  }
+  .rectangle-e {
+    position: absolute;
+    width: 280px;
+    height: 390px;
+    top: 0;
+    left: 4285px;
+    background: rgba(217, 217, 217, 0.2)
+      url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-06/Yz8hrZrVFL.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 153;
+    border-radius: 20px;
+  }
+  .rectangle-f {
+    position: absolute;
+    width: 280px;
+    height: 390px;
+    top: 0;
+    left: 4590px;
+    background: rgba(217, 217, 217, 0.2)
+      url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-06/8v01hvURum.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 154;
+    border-radius: 20px;
+  }
+  .rectangle-10 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 318px;
+    height: 58.892px;
+    margin: 62.35px 0 0 557px;
+    background: #f3c623;
+    z-index: 51;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  .contact-us {
+    flex-shrink: 0;
+    position: relative;
+    height: 28.947px;
+    color: #cd1818;
+    font-family: Inter, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.947px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 51;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .flex-row-bbaa {
+    position: relative;
+    width: 376px;
+    height: 79.853px;
+    margin: 33.954px 0 0 528px;
+    z-index: 25;
+  }
+  .our-services {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 284px;
+    height: 79.853px;
+    top: 0;
+    left: calc(50% - 142px);
+    color: #cd1818;
+    font-family: Inknut Antiqua, var(--default-font-family);
+    font-size: 31px;
+    font-weight: 800;
+    line-height: 79.853px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 25;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .rectangle-11 {
+    position: absolute;
+    width: 376px;
+    height: 58.892px;
+    top: 9.982px;
+    left: 50%;
+    background: #f3c623;
+    transform: translate(-50%, 0);
+    z-index: 24;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  .flex-row-db {
+    position: relative;
+    width: 1252px;
+    height: 229.578px;
+    margin: 23.677px 0 0 106px;
+    z-index: 169;
+  }
+  .rectangle-12 {
+    position: absolute;
+    width: 286px;
+    height: 217.6px;
+    top: 0;
+    left: 0;
+    background: rgba(243, 198, 35, 0.54);
+    border: 1px solid #000000;
+    z-index: 155;
+    border-radius: 10px;
+  }
+  .rectangle-13 {
+    position: relative;
+    width: 264px;
+    height: 177px;
+    margin: 7.721px 0 0 11px;
+    background: url(https://static.codia.ai/custom_image/2025-04-06/045948/classes-image.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 171;
+  }
+  .rectangle-14 {
+    position: absolute;
+    width: 286px;
+    height: 217.6px;
+    top: 0;
+    left: 322px;
+    background: rgba(243, 198, 35, 0.54);
+    border: 1px solid #000000;
+    z-index: 157;
+    border-radius: 10px;
+  }
+  .rectangle-15 {
+    position: relative;
+    width: 264px;
+    height: 177px;
+    margin: 7.721px 0 0 11px;
+    background: url(https://static.codia.ai/custom_image/2025-04-06/045948/pooja-homam-image.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 176;
+  }
+  .rectangle-16 {
+    position: absolute;
+    width: 286px;
+    height: 217.6px;
+    top: 0;
+    left: 644px;
+    background: rgba(243, 198, 35, 0.54);
+    border: 1px solid #000000;
+    z-index: 159;
+    border-radius: 10px;
+  }
+  .rectangle-17 {
+    position: relative;
+    width: 264px;
+    height: 177px;
+    margin: 7px 0 0 11px;
+    background: url(https://static.codia.ai/custom_image/2025-04-06/045948/astrology-consultation-image.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 177;
+  }
+  .rectangle-18 {
+    position: absolute;
+    width: 286px;
+    height: 217.6px;
+    top: 0;
+    left: 966px;
+    background: rgba(243, 198, 35, 0.54);
+    border: 1px solid #000000;
+    z-index: 161;
+    border-radius: 10px;
+  }
+  .rectangle-19 {
+    position: relative;
+    width: 264px;
+    height: 177px;
+    margin: 8px 0 0 11px;
+    background: url(https://static.codia.ai/custom_image/2025-04-06/045948/spiritual-tours-image.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 178;
+  }
+  .astrology-consultation {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 271px;
+    height: 39.927px;
+    top: 184px;
+    left: 662px;
+    color: #000000;
+    font-family: Inknut Antiqua, var(--default-font-family);
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 38.685px;
+    text-align: center;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 167;
+    overflow: hidden;
+  }
+  .spiritual-tours {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 132px;
+    height: 38.928px;
+    top: 184px;
+    left: 1043px;
+    color: #000000;
+    font-family: Inknut Antiqua, var(--default-font-family);
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 38.685px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 169;
+  }
+  .classes {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 105px;
+    height: 40.925px;
+    top: 184.66px;
+    left: 93px;
+    color: #000000;
+    font-family: Inknut Antiqua, var(--default-font-family);
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 38.685px;
+    text-align: center;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 163;
+    overflow: hidden;
+  }
+  .pooja-and-homam {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 247px;
+    height: 44.917px;
+    top: 184.66px;
+    left: 341px;
+    color: #000000;
+    font-family: Inknut Antiqua, var(--default-font-family);
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 38.685px;
+    text-align: center;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 165;
+    overflow: hidden;
+  }
+  .flex-row-c {
+    position: relative;
+    width: 1252px;
+    height: 223.655px;
+    margin: 47.912px 0 0 106px;
+    z-index: 166;
+  }
+  .rectangle-1a {
+    position: absolute;
+    width: 286px;
+    height: 217.6px;
+    top: 0;
+    left: 0;
+    background: rgba(243, 198, 35, 0.54);
+    border: 1px solid #000000;
+    z-index: 156;
+    border-radius: 10px;
+  }
+  .rectangle-1b {
+    position: relative;
+    width: 264px;
+    height: 177px;
+    margin: 10.51px 0 0 14px;
+    background: url(https://static.codia.ai/custom_image/2025-04-06/045948/ebooks-publishing-image.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 172;
+  }
+  .rectangle-1c {
+    position: absolute;
+    width: 286px;
+    height: 217.6px;
+    top: 1px;
+    left: 322px;
+    background: rgba(243, 198, 35, 0.54);
+    border: 1px solid #000000;
+    z-index: 158;
+    border-radius: 10px;
+  }
+  .rectangle-1d {
+    position: relative;
+    width: 264px;
+    height: 177px;
+    margin: 9.512px 0 0 11px;
+    background: url(https://static.codia.ai/custom_image/2025-04-06/045948/veda-raksha-yajna-image.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 173;
+  }
+  .rectangle-1e {
+    position: absolute;
+    width: 286px;
+    height: 217.6px;
+    top: 1px;
+    left: 640px;
+    background: rgba(243, 198, 35, 0.54);
+    border: 1px solid #000000;
+    z-index: 160;
+    border-radius: 10px;
+  }
+  .rectangle-1f {
+    position: relative;
+    width: 264px;
+    height: 177px;
+    margin: 9.512px 0 0 11px;
+    background: url(https://static.codia.ai/custom_image/2025-04-06/045948/membership-image.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 174;
+  }
+  .membership {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 115px;
+    height: 31px;
+    margin: -4px 0 0 85px;
+    color: #000000;
+    font-family: Inknut Antiqua, var(--default-font-family);
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 31px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 168;
+  }
+  .rectangle-20 {
+    position: absolute;
+    width: 286px;
+    height: 217.6px;
+    top: 1.996px;
+    left: 966px;
+    background: rgba(243, 198, 35, 0.54);
+    border: 1px solid #000000;
+    z-index: 162;
+    border-radius: 10px;
+  }
+  .rectangle-21 {
+    position: relative;
+    width: 269px;
+    height: 177px;
+    margin: 8.514px 0 0 10px;
+    background: url(https://static.codia.ai/custom_image/2025-04-06/045948/shathachandika-yajna-image.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 175;
+  }
+  .shathachandika-yajna {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 200px;
+    height: 34px;
+    margin: -7px 0 0 43px;
+    color: #000000;
+    font-family: Inknut Antiqua, var(--default-font-family);
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 34px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 170;
+  }
+  .veda-raksha-samvatsara-yajna {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 282px;
+    height: 51.905px;
+    top: 170.75px;
+    left: 326px;
+    color: #000000;
+    font-family: Inknut Antiqua, var(--default-font-family);
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 51.905px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 166;
+  }
+  .ebooks-book-publishing {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 210px;
+    height: 39.927px;
+    top: 183.729px;
+    left: 41px;
+    color: #000000;
+    font-family: Inknut Antiqua, var(--default-font-family);
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 38.685px;
+    text-align: center;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 164;
+    overflow: hidden;
+  }
+  .flex-row {
+    position: relative;
+    width: 376px;
+    height: 79.853px;
+    margin: 85.066px 0 0 528px;
+    z-index: 58;
+  }
+  .about-us {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 160px;
+    height: 79.853px;
+    top: 0;
+    left: calc(50% - 80px);
+    color: #cd1818;
+    font-family: Inknut Antiqua, var(--default-font-family);
+    font-size: 31px;
+    font-weight: 800;
+    line-height: 79.853px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 58;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .rectangle-22 {
+    position: absolute;
+    width: 376px;
+    height: 58.892px;
+    top: 9.982px;
+    left: 50%;
+    background: #f3c623;
+    transform: translate(-50%, 0);
+    z-index: 57;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  .flex-row-c-23 {
+    position: relative;
+    width: 1368px;
+    height: 584.925px;
+    margin: 67.875px 0 0 64px;
+    z-index: 61;
+  }
+  .rectangle-24 {
+    position: absolute;
+    width: 599px;
+    height: 584.925px;
+    top: 0;
+    left: 0;
+    background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-06/xFCA378zL1.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 59;
+  }
+  .sree-jnanambika-research {
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    width: 742px;
+    height: 146.73px;
+    top: 30.943px;
+    left: 626px;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: justified;
+    z-index: 60;
+  }
+  .vedic-academics {
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    width: 742px;
+    height: 346.363px;
+    top: 183.662px;
+    left: 626px;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: justified;
+    z-index: 61;
+  }
+  .spiritual-material-advancement {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    width: 1393px;
+    height: 439.193px;
+    margin: 21.96px 0 0 29px;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: justified;
+    z-index: 62;
+  }
+  .rectangle-25 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 454px;
+    height: 81.85px;
+    margin: -1.163px 0 0 489px;
+    background: #f3c623;
+    z-index: 31;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  .highlighted-gallery {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    width: 356px;
+    height: 79.853px;
+    color: #cd1818;
+    font-family: Inknut Antiqua, var(--default-font-family);
+    font-size: 31px;
+    font-weight: 800;
+    line-height: 79.853px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 31;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .component-26 {
+    position: relative;
+    width: 1440px;
+    height: 395.273px;
+    margin: 71.868px 0 0 3px;
+    z-index: 32;
+    overflow: hidden;
+  }
+  .group-27 {
+    position: relative;
+    width: 4870px;
+    height: 390px;
+    margin: 0 0 0 -78px;
+    z-index: 33;
+    border-radius: 20px;
+  }
+  .rectangle-28 {
+    position: absolute;
+    width: 280px;
+    height: 390px;
+    top: 0;
+    left: 0;
+    background: rgba(217, 217, 217, 0.2)
+      url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-06/SNa4eTsGfE.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 34;
+    border-radius: 20px;
+  }
+  .rectangle-29 {
+    position: absolute;
+    width: 280px;
+    height: 390px;
+    top: 0;
+    left: 305px;
+    background: rgba(217, 217, 217, 0.2)
+      url(https://static.codia.ai/custom_image/2025-04-06/045948/gallery-highlight-2.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 35;
+    border-radius: 20px;
+  }
+  .rectangle-2a {
+    position: absolute;
+    width: 280px;
+    height: 390px;
+    top: 0;
+    left: 610px;
+    background: rgba(217, 217, 217, 0.2)
+      url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-06/15s3tiYPGO.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 36;
+    border-radius: 20px;
+  }
+  .rectangle-2b {
+    position: absolute;
+    width: 280px;
+    height: 390px;
+    top: 0;
+    left: 915px;
+    background: rgba(217, 217, 217, 0.2)
+      url(https://static.codia.ai/custom_image/2025-04-06/045948/gallery-highlight-4.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 37;
+    border-radius: 20px;
+  }
+  .rectangle-2c {
+    position: absolute;
+    width: 280px;
+    height: 390px;
+    top: 0;
+    left: 1220px;
+    background: rgba(217, 217, 217, 0.2)
+      url(https://static.codia.ai/custom_image/2025-04-06/045948/gallery-highlight-5.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 38;
+    border-radius: 20px;
+  }
+  .rectangle-2d {
+    position: absolute;
+    width: 280px;
+    height: 390px;
+    top: 0;
+    left: 1525px;
+    background: rgba(217, 217, 217, 0.2)
+      url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-06/b7EZcwCxPL.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 39;
+    border-radius: 20px;
+  }
+  .rectangle-2e {
+    position: absolute;
+    width: 280px;
+    height: 390px;
+    top: 0;
+    left: 1830px;
+    background: rgba(217, 217, 217, 0.2)
+      url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-06/MKHE1GtQhK.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 40;
+    border-radius: 20px;
+  }
+  .rectangle-2f {
+    position: absolute;
+    width: 280px;
+    height: 390px;
+    top: 0;
+    left: 2135px;
+    background: rgba(217, 217, 217, 0.2)
+      url(https://static.codia.ai/custom_image/2025-04-06/045948/gallery-highlight-8.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 41;
+    border-radius: 20px;
+  }
+  .rectangle-30 {
+    position: absolute;
+    width: 280px;
+    height: 390px;
+    top: 0;
+    left: 2455px;
+    background: rgba(217, 217, 217, 0.2)
+      url(https://static.codia.ai/custom_image/2025-04-06/045948/gallery-highlight-9.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 42;
+    border-radius: 20px;
+  }
+  .rectangle-31 {
+    position: absolute;
+    width: 280px;
+    height: 390px;
+    top: 0;
+    left: 2760px;
+    background: rgba(217, 217, 217, 0.2)
+      url(https://static.codia.ai/custom_image/2025-04-06/045948/gallery-highlight-10.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 43;
+    border-radius: 20px;
+  }
+  .rectangle-32 {
+    position: absolute;
+    width: 280px;
+    height: 390px;
+    top: 0;
+    left: 3065px;
+    background: rgba(217, 217, 217, 0.2)
+      url(https://static.codia.ai/custom_image/2025-04-06/045948/gallery-highlight-11.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 44;
+    border-radius: 20px;
+  }
+  .rectangle-33 {
+    position: absolute;
+    width: 280px;
+    height: 390px;
+    top: 0;
+    left: 3370px;
+    background: rgba(217, 217, 217, 0.2)
+      url(https://static.codia.ai/custom_image/2025-04-06/045948/gallery-highlight-12.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 45;
+    border-radius: 20px;
+  }
+  .rectangle-34 {
+    position: absolute;
+    width: 280px;
+    height: 390px;
+    top: 0;
+    left: 3675px;
+    background: rgba(217, 217, 217, 0.2)
+      url(https://static.codia.ai/custom_image/2025-04-06/045948/gallery-highlight-13.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 46;
+    border-radius: 20px;
+  }
+  .rectangle-35 {
+    position: absolute;
+    width: 280px;
+    height: 390px;
+    top: 0;
+    left: 3980px;
+    background: rgba(217, 217, 217, 0.2)
+      url(https://static.codia.ai/custom_image/2025-04-06/045948/gallery-highlight-14.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 47;
+    border-radius: 20px;
+  }
+  .rectangle-36 {
+    position: absolute;
+    width: 280px;
+    height: 390px;
+    top: 0;
+    left: 4285px;
+    background: rgba(217, 217, 217, 0.2)
+      url(https://static.codia.ai/custom_image/2025-04-06/045948/gallery-highlight-15.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 48;
+    border-radius: 20px;
+  }
+  .rectangle-37 {
+    position: absolute;
+    width: 280px;
+    height: 390px;
+    top: 0;
+    left: 4590px;
+    background: rgba(217, 217, 217, 0.2)
+      url(https://static.codia.ai/custom_image/2025-04-06/045948/gallery-highlight-16.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 49;
+    border-radius: 20px;
+  }
+  .rectangle-38 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 318px;
+    height: 58.892px;
+    margin: 246.547px 0 0 557px;
+    background: #f3c623;
+    z-index: 54;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  .contact-us-39 {
+    flex-shrink: 0;
+    position: relative;
+    height: 28.947px;
+    color: #cd1818;
+    font-family: Inter, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.947px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 54;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .flex-row-b {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 1236px;
+    height: 58.892px;
+    margin: 68.873px 0 0 90px;
+    z-index: 66;
+  }
+  .rectangle-3a {
+    flex-shrink: 0;
+    position: relative;
+    width: 592px;
+    height: 58.892px;
+    background: #d9d9d9;
+    z-index: 63;
+    border-radius: 20px;
+  }
+  .name {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 30.943px;
+    top: 14.973px;
+    left: 38px;
+    color: rgba(0, 0, 0, 0.38);
+    font-family: Inter, var(--default-font-family);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30.943px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 68;
+  }
+  .rectangle-3b {
+    flex-shrink: 0;
+    position: relative;
+    width: 611px;
+    height: 58.892px;
+    background: #d9d9d9;
+    z-index: 66;
+    border-radius: 20px;
+  }
+  .email-id {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 30.943px;
+    top: 14.973px;
+    left: 22px;
+    color: rgba(0, 0, 0, 0.38);
+    font-family: Inter, var(--default-font-family);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30.943px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 69;
+  }
+  .flex-row-faa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 1234px;
+    height: 58.892px;
+    margin: 19.963px 0 0 90px;
+    z-index: 67;
+  }
+  .rectangle-3c {
+    flex-shrink: 0;
+    position: relative;
+    width: 592px;
+    height: 58.892px;
+    background: #d9d9d9;
+    z-index: 64;
+    border-radius: 20px;
+  }
+  .contact-number {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 30.943px;
+    top: 18.965px;
+    left: 38px;
+    color: rgba(0, 0, 0, 0.38);
+    font-family: Inter, var(--default-font-family);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30.943px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 72;
+  }
+  .rectangle-3d {
+    flex-shrink: 0;
+    position: relative;
+    width: 611px;
+    height: 58.892px;
+    background: #d9d9d9;
+    z-index: 67;
+    border-radius: 20px;
+  }
+  .address {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 30.943px;
+    top: 11.978px;
+    left: 24px;
+    color: rgba(0, 0, 0, 0.38);
+    font-family: Inter, var(--default-font-family);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30.943px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 70;
+  }
+  .rectangle-3e {
+    position: relative;
+    width: 1234px;
+    height: 299.449px;
+    margin: 29.945px 0 0 90px;
+    background: #d9d9d9;
+    z-index: 71;
+    border-radius: 15px;
+  }
+  .you-message {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 30.943px;
+    top: 8.983px;
+    left: 18px;
+    color: rgba(0, 0, 0, 0.38);
+    font-family: Inter, var(--default-font-family);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30.943px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 71;
+  }
+  .rectangle-3f {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 412px;
+    height: 60.888px;
+    margin: 56.895px 0 0 510px;
+    background: #d9d9d9;
+    z-index: 74;
+    border-radius: 20px;
+  }
+  .send-message {
+    flex-shrink: 0;
+    position: relative;
+    height: 30.943px;
+    color: rgba(0, 0, 0, 0.38);
+    font-family: Inter, var(--default-font-family);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30.943px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 74;
+  }
+  .rectangle-40 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 318px;
+    height: 58.892px;
+    margin: 118.782px 0 0 561px;
+    background: #f3c623;
+    z-index: 56;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  .class {
+    flex-shrink: 0;
+    position: relative;
+    height: 28.947px;
+    color: #cd1818;
+    font-family: Inter, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.947px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 56;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .flex-row-d {
+    position: relative;
+    width: 1369px;
+    height: 469px;
+    margin: 103.246px 0 0 35px;
+    z-index: 136;
+  }
+  .online-classes {
+    position: absolute;
+    width: 369px;
+    height: 469px;
+    top: 0;
+    left: 0;
+    background: url(https://static.codia.ai/custom_image/2025-04-06/045948/online-classes-image.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 136;
+  }
+  .online-classes-description {
+    position: absolute;
+    width: 977px;
+    height: 336px;
+    top: 17px;
+    left: 392px;
+    font-family: Inter, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.045px;
+    text-align: justified;
+    z-index: 135;
+  }
+  .online-classes-description-41 {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.045px;
+    text-align: justified;
+  }
+  .classroom-app {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.045px;
+    text-align: justified;
+    text-decoration: underline;
+  }
+  .online-classes-description-42 {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.045px;
+    text-align: justified;
+  }
+  .rectangle-43 {
+    position: relative;
+    width: 337px;
+    height: 58.892px;
+    margin: 106.505px 0 0 548px;
+    background: #f3c623;
+    z-index: 82;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  .pooja-and-homam-44 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 46.914px;
+    top: 11.978px;
+    left: calc(50% - 80.5px);
+    color: #000000;
+    font-family: Inknut Antiqua, var(--default-font-family);
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 38.685px;
+    text-align: left;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 82;
+    overflow: hidden;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .flex-row-dc {
+    position: relative;
+    width: 1370px;
+    height: 475.127px;
+    margin: 115.787px 0 0 41px;
+    z-index: 84;
+  }
+  .nov-mahamritunjaya-havan {
+    position: absolute;
+    width: 369px;
+    height: 468.139px;
+    top: 0;
+    left: 0;
+    background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-06/05pxvffFJd.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 83;
+  }
+  .all-sufferings-are {
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    width: 977px;
+    height: 475.127px;
+    top: 0;
+    left: 393px;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 27.598px;
+    text-align: justified;
+    z-index: 84;
+  }
+  .rectangle-45 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 279px;
+    height: 58.892px;
+    margin: 187.655px 0 0 575px;
+    background: #f3c623;
+    z-index: 87;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  .astrology-consultation-46 {
+    flex-shrink: 0;
+    position: relative;
+    height: 38.928px;
+    color: #000000;
+    font-family: Inknut Antiqua, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 38.928px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 87;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .flex-row-47 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 1374px;
+    height: 468.139px;
+    margin: 77.142px 0 0 35px;
+    z-index: 89;
+  }
+  .nov-mahamritunjaya-havan-48 {
+    flex-shrink: 0;
+    position: relative;
+    width: 369px;
+    height: 468.139px;
+    background: url(https://static.codia.ai/custom_image/2025-04-06/045948/astrology-consultation-banner.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 88;
+  }
+  .astrology-is-a-range {
+    flex-shrink: 0;
+    position: relative;
+    width: 977px;
+    height: 409.248px;
+    font-family: Inter, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+    z-index: 89;
+  }
+  .astrology-is {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+  }
+  .divinatory {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+    text-decoration: underline;
+  }
+  .astrology-is-49 {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+  }
+  .since-the-18th-century {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+    text-decoration: underline;
+  }
+  .astrology-is-4a {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+  }
+  .text-23 {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+    text-decoration: underline;
+  }
+  .that-propose-that-information {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+    text-decoration: underline;
+  }
+  .astrology-is-4b {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+  }
+  .different-cultures-have {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+    text-decoration: underline;
+  }
+  .astrology-is-4c {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+  }
+  .systems-used-to-predict {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+    text-decoration: underline;
+  }
+  .astrology-is-4d {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+  }
+  .chinese {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+    text-decoration: underline;
+  }
+  .astrology-is-4e {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+  }
+  .developed-elaborate-systems {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+    text-decoration: underline;
+  }
+  .astrology-is-4f {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+  }
+  .mesopotamia {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+    text-decoration: underline;
+  }
+  .astrology-is-50 {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+  }
+  .contemporary-western-astrology {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+    text-decoration: underline;
+  }
+  .astrology-is-51 {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+  }
+  .rectangle-52 {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+    text-decoration: underline;
+  }
+  .astrology-is-53 {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+  }
+  .flex-row-ca {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+    text-decoration: underline;
+  }
+  .astrology-is-54 {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+  }
+  .rectangle-55 {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+    text-decoration: underline;
+  }
+  .astrology-is-56 {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+  }
+  .rectangle-57 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 280px;
+    height: 58.892px;
+    margin: 220.311px 0 0 561px;
+    background: #f3c623;
+    z-index: 91;
+    border-radius: 20px;
+  }
+  .flex-row-cbb {
+    flex-shrink: 0;
+    position: relative;
+    height: 38.928px;
+    color: #000000;
+    font-family: Inknut Antiqua, var(--default-font-family);
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 38.685px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 91;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .rectangle-58 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 1251px;
+    height: 271.501px;
+    margin: 104.807px 0 0 91px;
+    z-index: 101;
+  }
+  .rectangle-59 {
+    flex-shrink: 0;
+    position: relative;
+    width: 288px;
+    height: 271.501px;
+    background: #d9d9d9;
+    z-index: 97;
+  }
+  .rectangle-5a {
+    flex-shrink: 0;
+    position: relative;
+    width: 288px;
+    height: 271.501px;
+    background: #d9d9d9;
+    z-index: 99;
+  }
+  .rectangle-5b {
+    flex-shrink: 0;
+    position: relative;
+    width: 288px;
+    height: 271.501px;
+    background: #d9d9d9;
+    z-index: 100;
+  }
+  .section-9 {
+    flex-shrink: 0;
+    position: relative;
+    width: 288px;
+    height: 271.501px;
+    background: #d9d9d9;
+    z-index: 101;
+  }
+  .section-a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 1251px;
+    height: 272.499px;
+    margin: 39.926px 0 0 91px;
+    z-index: 98;
+  }
+  .wrapper-c {
+    flex-shrink: 0;
+    position: relative;
+    width: 288px;
+    height: 271.501px;
+    background: #d9d9d9;
+    z-index: 93;
+  }
+  .group-d {
+    flex-shrink: 0;
+    position: relative;
+    width: 288px;
+    height: 271.501px;
+    background: #d9d9d9;
+    z-index: 94;
+  }
+  .section-b {
+    flex-shrink: 0;
+    position: relative;
+    width: 288px;
+    height: 271.501px;
+    background: #d9d9d9;
+    z-index: 95;
+  }
+  .wrapper-d {
+    flex-shrink: 0;
+    position: relative;
+    width: 288px;
+    height: 271.501px;
+    background: #d9d9d9;
+    z-index: 98;
+  }
+  .flex-row-b-5c {
+    position: relative;
+    width: 343px;
+    height: 63.883px;
+    margin: 83.846px 0 0 556px;
+    z-index: 103;
+  }
+  .rectangle-5d {
+    position: absolute;
+    width: 343px;
+    height: 58.892px;
+    top: 0;
+    left: 50%;
+    background: #f3c623;
+    transform: translate(-50%, 0);
+    z-index: 102;
+    border-radius: 20px;
+  }
+  .veda-raksha-samvatsara-yajna-5e {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 63.883px;
+    top: 0;
+    left: calc(50% - 138.5px);
+    color: #000000;
+    font-family: Inknut Antiqua, var(--default-font-family);
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 63.883px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 103;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .flex-row-c-5f {
+    position: relative;
+    width: 1375px;
+    height: 496.088px;
+    margin: 106.803px 0 0 26px;
+    z-index: 105;
+  }
+  .astrology {
+    position: absolute;
+    width: 977px;
+    height: 409.248px;
+    top: 0;
+    left: 398px;
+    font-family: Inter, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+    z-index: 104;
+  }
+  .astrology-range {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+  }
+  .divinatory-60 {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+    text-decoration: underline;
+  }
+  .astrology-range-61 {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+  }
+  .pseudoscientific {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+    text-decoration: underline;
+  }
+  .astrology-range-62 {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+  }
+  .brackets {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+    text-decoration: underline;
+  }
+  .brackets-63 {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+    text-decoration: underline;
+  }
+  .astrology-range-64 {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+  }
+  .celestial-objects {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+    text-decoration: underline;
+  }
+  .astrology-range-65 {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+  }
+  .calendrical {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+    text-decoration: underline;
+  }
+  .astrology-range-66 {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+  }
+  .hindus {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+    text-decoration: underline;
+  }
+  .astrology-range-67 {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+  }
+  .maya {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+    text-decoration: underline;
+  }
+  .astrology-range-68 {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+  }
+  .western-astrology {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+    text-decoration: underline;
+  }
+  .astrology-range-69 {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+  }
+  .mesopotamia-6a {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+    text-decoration: underline;
+  }
+  .astrology-range-6b {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+  }
+  .islamic-world {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+    text-decoration: underline;
+  }
+  .astrology-range-6c {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+  }
+  .contemporary-astrology {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+    text-decoration: underline;
+  }
+  .astrology-range-6d {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+  }
+  .personality-predict-events {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+    text-decoration: underline;
+  }
+  .astrology-range-6e {
+    position: relative;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55.298px;
+    text-align: justified;
+  }
+  .images {
+    position: absolute;
+    width: 369px;
+    height: 468.139px;
+    top: 27.949px;
+    left: 0;
+    background: url(https://static.codia.ai/custom_image/2025-04-06/045948/veda-raksha-yajna-banner.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 105;
+  }
+  .rectangle-6f {
+    position: relative;
+    width: 165px;
+    height: 58.892px;
+    margin: 233.571px 0 0 628px;
+    background: #f3c623;
+    z-index: 107;
+    border-radius: 20px;
+  }
+  .membership-70 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 38.928px;
+    top: 11.978px;
+    left: calc(50% - 49.5px);
+    color: #000000;
+    font-family: Inknut Antiqua, var(--default-font-family);
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 38.685px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 107;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .flex-row-f {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 1251px;
+    height: 271.501px;
+    margin: 71.868px 0 0 91px;
+    z-index: 117;
+  }
+  .rectangle-71 {
+    flex-shrink: 0;
+    position: relative;
+    width: 288px;
+    height: 271.501px;
+    background: #d9d9d9;
+    z-index: 113;
+  }
+  .rectangle-72 {
+    flex-shrink: 0;
+    position: relative;
+    width: 288px;
+    height: 271.501px;
+    background: #d9d9d9;
+    z-index: 115;
+  }
+  .rectangle-73 {
+    flex-shrink: 0;
+    position: relative;
+    width: 288px;
+    height: 271.501px;
+    background: #d9d9d9;
+    z-index: 116;
+  }
+  .rectangle-74 {
+    flex-shrink: 0;
+    position: relative;
+    width: 288px;
+    height: 271.501px;
+    background: #d9d9d9;
+    z-index: 117;
+  }
+  .flex-row-b-75 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 1251px;
+    height: 272.499px;
+    margin: 39.927px 0 0 91px;
+    z-index: 114;
+  }
+  .rectangle-76 {
+    flex-shrink: 0;
+    position: relative;
+    width: 288px;
+    height: 271.501px;
+    background: #d9d9d9;
+    z-index: 109;
+  }
+  .rectangle-77 {
+    flex-shrink: 0;
+    position: relative;
+    width: 288px;
+    height: 271.501px;
+    background: #d9d9d9;
+    z-index: 110;
+  }
+  .rectangle-78 {
+    flex-shrink: 0;
+    position: relative;
+    width: 288px;
+    height: 271.501px;
+    background: #d9d9d9;
+    z-index: 111;
+  }
+  .rectangle-79 {
+    flex-shrink: 0;
+    position: relative;
+    width: 288px;
+    height: 271.501px;
+    background: #d9d9d9;
+    z-index: 114;
+  }
+  .rectangle-7a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 390px;
+    height: 58.892px;
+    margin: 115.787px 0 0 524px;
+    background: #f3c623;
+    z-index: 119;
+    border-radius: 20px;
+  }
+  .shathachandika-yajna-7b {
+    flex-shrink: 0;
+    position: relative;
+    width: 292px;
+    height: 34.936px;
+    font-family: Inder, var(--default-font-family);
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34.936px;
+    text-align: left;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 119;
+  }
+  .shathachandika-yajna-7c {
+    position: relative;
+    color: #cd1818;
+    font-family: Inder, var(--default-font-family);
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: left;
+  }
+  .empty-space {
+    position: relative;
+    color: #cd1818;
+    font-family: Inder, var(--default-font-family);
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: left;
+  }
+  .flex-row-b-7d {
+    position: relative;
+    width: 1371px;
+    height: 468.139px;
+    margin: 139.743px 0 0 31px;
+    z-index: 121;
+  }
+  .maa-chandraghanta {
+    position: absolute;
+    width: 369px;
+    height: 468.139px;
+    top: 0;
+    left: 0;
+    background: url(https://static.codia.ai/custom_image/2025-04-06/045948/maa-chandraghanta-image.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 121;
+  }
+  .sree-jnanambika-research-7e {
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    width: 977px;
+    height: 245.549px;
+    top: 12.976px;
+    left: 394px;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 41.473px;
+    text-align: justified;
+    z-index: 120;
+  }
+  .rectangle-7f {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 326px;
+    height: 58.892px;
+    margin: 129.761px 0 0 553px;
+    background: #f3c623;
+    z-index: 134;
+    border-radius: 20px;
+  }
+  .e-book-publication {
+    flex-shrink: 0;
+    position: relative;
+    height: 38.928px;
+    color: #000000;
+    font-family: Inknut Antiqua, var(--default-font-family);
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 38.685px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 134;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .flex-row-ef {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 1251px;
+    height: 271.501px;
+    margin: 50.907px 0 0 91px;
+    z-index: 131;
+  }
+  .rectangle-80 {
+    flex-shrink: 0;
+    position: relative;
+    width: 288px;
+    height: 271.501px;
+    background: #d9d9d9;
+    z-index: 127;
+  }
+  .rectangle-81 {
+    flex-shrink: 0;
+    position: relative;
+    width: 288px;
+    height: 271.501px;
+    background: #d9d9d9;
+    z-index: 129;
+  }
+  .rectangle-82 {
+    flex-shrink: 0;
+    position: relative;
+    width: 288px;
+    height: 271.501px;
+    background: #d9d9d9;
+    z-index: 130;
+  }
+  .rectangle-83 {
+    flex-shrink: 0;
+    position: relative;
+    width: 288px;
+    height: 271.501px;
+    background: #d9d9d9;
+    z-index: 131;
+  }
+  .flex-row-84 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 1251px;
+    height: 272.499px;
+    margin: 39.927px 0 0 91px;
+    z-index: 128;
+  }
+  .rectangle-85 {
+    flex-shrink: 0;
+    position: relative;
+    width: 288px;
+    height: 271.501px;
+    background: #d9d9d9;
+    z-index: 123;
+  }
+  .rectangle-86 {
+    flex-shrink: 0;
+    position: relative;
+    width: 288px;
+    height: 271.501px;
+    background: #d9d9d9;
+    z-index: 124;
+  }
+  .rectangle-87 {
+    flex-shrink: 0;
+    position: relative;
+    width: 288px;
+    height: 271.501px;
+    background: #d9d9d9;
+    z-index: 125;
+  }
+  .rectangle-88 {
+    flex-shrink: 0;
+    position: relative;
+    width: 288px;
+    height: 271.501px;
+    background: #d9d9d9;
+    z-index: 128;
+  }
+  .rectangle-89 {
+    position: absolute;
+    width: 1440px;
+    height: 146.73px;
+    top: 0;
+    left: -1px;
+    background: url(https://static.codia.ai/custom_image/2025-04-06/045948/header-background.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 1;
+  }
+  .flex-row-a {
+    position: absolute;
+    width: 1440px;
+    height: 116.768px;
+    top: 19.963px;
+    left: -1px;
+    z-index: 2;
+  }
+  .rectangle-8a {
+    position: absolute;
+    width: 1440px;
+    height: 109.798px;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.97);
+    border-radius: 4px;
+  }
+  .contact-us-8b {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 61.905px;
+    top: 44.878px;
+    left: 868.361px;
+    color: #cd1818;
+    font-family: Inknut Antiqua, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 61.896px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 22;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .about {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 61.905px;
+    top: 44.878px;
+    left: 1038.309px;
+    color: #cd1818;
+    font-family: Inknut Antiqua, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 61.896px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 23;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .gallery {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 61.905px;
+    top: 44.878px;
+    left: 755.396px;
+    color: #cd1818;
+    font-family: Inknut Antiqua, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 61.896px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 21;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .services {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 61.905px;
+    top: 44.878px;
+    left: 621.437px;
+    color: #cd1818;
+    font-family: Inknut Antiqua, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 61.896px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 20;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .home {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 61.905px;
+    top: 44.878px;
+    left: 521.468px;
+    color: #cd1818;
+    font-family: Inknut Antiqua, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 61.896px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 19;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .profil-notification {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 20px;
+    position: absolute;
+    width: 236px;
+    height: 44px;
+    top: 53.865px;
+    left: 1138.278px;
+    z-index: 3;
+  }
+  .like {
+    flex-shrink: 0;
+    position: relative;
+    width: 44px;
+    height: 44px;
+    z-index: 4;
+  }
+  .vuesax-bold-heart {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    margin: 10px 0 0 10px;
+    z-index: 5;
+  }
+  .vuesax-bold-heart-8c {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 0;
+    left: 0;
+    background: url(https://static.codia.ai/custom_image/2025-04-06/045948/heart-icon.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 6;
+  }
+  .button {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    top: 0;
+    left: 0;
+    border: 1px solid #000000;
+    opacity: 0.8;
+    z-index: 7;
+    border-radius: 90px;
+  }
+  .notification {
+    flex-shrink: 0;
+    position: relative;
+    width: 44px;
+    height: 44px;
+    z-index: 8;
+  }
+  .notif {
+    position: relative;
+    width: 11px;
+    height: 11px;
+    margin: 2px 0 0 31px;
+    background: url(https://static.codia.ai/custom_image/2025-04-06/045948/notification-dot.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 12;
+    border-radius: 50%;
+  }
+  .vuesax-bold-notification {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    margin: -3px 0 0 10px;
+    z-index: 9;
+  }
+  .vuesax-bold-notification-8d {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 0;
+    left: 0;
+    background: url(https://static.codia.ai/custom_image/2025-04-06/045948/notification-icon.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 10;
+  }
+  .button-8e {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    top: 0;
+    left: 0;
+    border: 1px solid #000000;
+    opacity: 0.8;
+    z-index: 11;
+    border-radius: 90px;
+  }
+  .settings {
+    flex-shrink: 0;
+    position: relative;
+    width: 44px;
+    height: 44px;
+    z-index: 13;
+  }
+  .vuesax-bold-setting {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    margin: 10px 0 0 10px;
+    z-index: 14;
+  }
+  .vuesax-bold-setting-8f {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 0;
+    left: 0;
+    background: url(https://static.codia.ai/custom_image/2025-04-06/045948/settings-icon.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 15;
+  }
+  .button-90 {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    top: 0;
+    left: 0;
+    border: 1px solid #000000;
+    opacity: 0.8;
+    z-index: 16;
+    border-radius: 90px;
+  }
+  .profil {
+    flex-shrink: 0;
+    position: relative;
+    width: 44px;
+    height: 44px;
+    z-index: 17;
+    border-radius: 90px;
+  }
+  .image {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    top: 0;
+    left: 0;
+    background: url(https://static.codia.ai/custom_image/2025-04-06/045948/profile-image.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 18;
+    border-radius: 90px;
+  }
+  .whatsapp-image-removebg-preview {
+    position: absolute;
+    width: 374.885px;
+    height: 112.827px;
+    top: 3.941px;
+    left: 20.622px;
+    background: url(https://static.codia.ai/custom_image/2025-04-06/045948/logo-image.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 2;
+    border-radius: 26px;
+  }
+  .flex-row-ca-91 {
+    position: absolute;
+    height: 203.626px;
+    top: 121.776px;
+    right: 4px;
+    left: 0;
+    z-index: 78;
+  }
+  .component-92 {
+    position: absolute;
+    width: 1436px;
+    height: 60.888px;
+    top: 0;
+    left: 0;
+    z-index: 78;
+    overflow: hidden;
+  }
+  .frame {
+    position: absolute;
+    width: 4084px;
+    height: 83px;
+    top: 0;
+    left: 0;
+    z-index: 79;
+  }
+  .live-update {
+    position: absolute;
+    width: 4084px;
+    height: 83px;
+    top: 0;
+    left: 50%;
+    font-family: Inknut Antiqua, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 82.528px;
+    text-align: center;
+    text-overflow: initial;
+    white-space: nowrap;
+    transform: translate(-50%, 0);
+    z-index: 80;
+  }
+  .live-update-93 {
+    position: relative;
+    color: #000000;
+    font-family: Inknut Antiqua, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 82.528px;
+    text-align: center;
+  }
+  .online-classes-94 {
+    position: relative;
+    color: #000000;
+    font-family: Inknut Antiqua, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 82.528px;
+    text-align: center;
+  }
+  .welcome-to-vedicliving {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 681px;
+    height: 100.815px;
+    top: 49.908px;
+    left: calc(50% - 342px);
+    color: #cd1818;
+    font-family: Inknut Antiqua, var(--default-font-family);
+    font-size: 39px;
+    font-weight: 700;
+    line-height: 100.581px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 76;
+  }
+  .sree-jnanambika-research-95 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 889px;
+    height: 71.868px;
+    top: 116.785px;
+    left: calc(50% - 446px);
+    color: #000000;
+    font-family: Inknut Antiqua, var(--default-font-family);
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 71.868px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 75;
+  }
+  .reg-no {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 28.947px;
+    top: 174.679px;
+    left: calc(50% - -363px);
+    color: #cd1818;
+    font-family: Inter, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.947px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 77;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
